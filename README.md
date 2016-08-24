@@ -35,7 +35,7 @@ $.extend(obj1,obj2);
 
 console.log(obj1);//Object {eyes: "three", ear: 4, banana:{width:52,price:100}}//banana属性被obj2覆盖
 ```
-<h3>方法3</j3>
+<h3>方法3</h3>
 传入三个以上参数，第一个参数为布尔值<b>true</b>，之后的参数为对象，这种方法会用递归方式合并对象属性值
 ```javascript
 var obj1={
